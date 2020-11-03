@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+#login{
+    background-color: rgb(204, 105, 204);
+    padding: 150px;
+    margin: 50px 500px 0px 500px;
+}
+
+#login input{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border: none;
+    padding: 5px;
+}
+
+#login input:focus{
+    border: none;
+    text-decoration: none;
+}
+
+#login a{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: -140px;
+    text-decoration: none;
+    background-color:  rgb(109, 42, 109);
+    color: white;
+    padding: 7px 30px 7px 30px;
+}
+
+#login a:hover{
+    background-color:  rgb(68, 36, 68);
+}
+
+#login img{
+    margin-top: -100px;
+    width: 200px;
+    height: 200px;
+}
