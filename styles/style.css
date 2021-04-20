@@ -1,11 +1,14 @@
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(242, 198, 255);
 }
 
 #login{
     background-color: rgb(204, 105, 204);
-    padding: 150px;
-    margin: 50px 500px 0px 500px;
+    padding: 100px;
+    margin: 100px auto;
+    width: 210px;
+    box-shadow: 10px 10px 5px black;
+    border-radius: 20px;
 }
 
 #login input{
@@ -16,22 +19,28 @@ body{
 }
 
 #login input:focus{
-    border: none;
-    text-decoration: none;
+    outline: 0;
 }
 
-#login a{
-    position: absolute;
-    margin-top: 70px;
-    margin-left: -140px;
-    text-decoration: none;
+#btnEntrar{
     background-color:  rgb(109, 42, 109);
     color: white;
-    padding: 7px 30px 7px 30px;
+    border: none;
+    padding: 10px 15px 10px 15px;
+    margin: 10px auto;
+    margin-left: 60px;
 }
 
-#login a:hover{
+#btnEntrar:hover{
     background-color:  rgb(68, 36, 68);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#btnEntrar:focus{
+    box-shadow: 0 0 0 1;
+    border: 1 none;
+    outline: 0;
 }
 
 #login img{
